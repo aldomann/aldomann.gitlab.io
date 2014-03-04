@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,700,700italic,300italic);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, sans-serif;
-  color:#777;
+  font:15px Lato, sans-serif;
+  color:#616161;
   font-weight:300;
 }
 
@@ -35,6 +36,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
+  /*color: #F35E68;*/
   font-weight:400;
   text-decoration:none;
 }
