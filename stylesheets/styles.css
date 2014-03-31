@@ -9,6 +9,8 @@ body {
   color:#343434;
   font-weight:300;
   background: #F2F2F2;
+  /*background: #303030;*/
+  background-image:url("noise-texture.png");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,7 +62,8 @@ a small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  /*border-left:1px solid #e5e5e5;*/
+  border-left:1px solid #4971c3;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -210,7 +213,7 @@ footer {
   }
   
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #d9d9d9;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
