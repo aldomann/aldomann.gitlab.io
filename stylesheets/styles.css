@@ -9,7 +9,6 @@ body {
   color:#343434;
   font-weight:300;
   background: #F2F2F2;
-  /*background: #303030;*/
   background-image:url("noise-texture.png");
 }
 
@@ -44,7 +43,7 @@ h3, h4, h5, h6 {
 
 a {
   /*color:#39c;*/
-  color: #FF3333;
+  color: #ff3333;
   font-weight:400;
   text-decoration:none;
 }
