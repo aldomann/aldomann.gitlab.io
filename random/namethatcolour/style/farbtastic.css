@@ -33,6 +33,17 @@
 
 #ntc {
   padding: 24px;
+	width: auto;
+/*	float: center;*/
+/*
+  margin-left: 10%;
+  margin-right: 10%;
+*/
+/*
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+*/
 }
 
 #ntc #picker {
