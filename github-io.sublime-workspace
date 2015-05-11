@@ -158,9 +158,14 @@
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 400.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -564,7 +569,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aldomann/Downloads/Git/aldomann.github.io"
+		"/home/aldomann/SparkleShare/aldomann.github.io"
 	],
 	"file_history":
 	[
@@ -1450,6 +1455,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "github-io.sublime-project",
 	"replace":
 	{
@@ -1459,6 +1465,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1479,6 +1486,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1491,6 +1499,7 @@
 	"select_symbol":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
