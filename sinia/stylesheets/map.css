@@ -13,6 +13,10 @@ a:hover
 {
 	text-decoration: underline;
 }
+a.nounderline
+{
+	text-decoration: none;
+}
 #map
 {
 	background-image: url(../images/mapa.png);
