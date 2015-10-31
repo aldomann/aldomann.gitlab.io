@@ -15,7 +15,7 @@ a:hover
 }
 #map
 {
-	background-image: url(./images/mapa.png);
+	background-image: url(../images/mapa.png);
 	height: 419px;
 	width: 950px;
 }
