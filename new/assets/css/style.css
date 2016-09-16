@@ -336,13 +336,13 @@ table td,td {
 	border-width: 1px 0 0 0;
 }
 
-/*tr>td {
+tr>td {
 	border-top: 1px solid #eaeaea;
-}*/
-
-tr:nth-child(odd)>td {
-	background: #fcfcfc;
 }
+
+/*tr:nth-child(odd)>td {
+	background: #fcfcfc;
+}*/
 
 /*thead th,th {
 	text-align: left;
