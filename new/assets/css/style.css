@@ -315,7 +315,7 @@ pre	{
 
 }*/
 
-/*table {
+table {
 	width: 100%;
 	margin: 40px 0;
 	border-collapse: collapse;
@@ -336,7 +336,7 @@ table td,td {
 	border-width: 1px 0 0 0;
 }
 
-tr>td {
+/*tr>td {
 	border-top: 1px solid #eaeaea;
 }
 
