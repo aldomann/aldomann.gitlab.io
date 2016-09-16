@@ -332,7 +332,7 @@ th,td {
 table td,td {
 	border-spacing: none;
 	border-style: solid;
-	padding: 10px 5px;
+	padding: 10px 10px;
 	border-width: 1px 0 0 0;
 }
 
