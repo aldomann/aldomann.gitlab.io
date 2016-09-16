@@ -315,7 +315,7 @@ pre	{
 
 }*/
 
-/*table {
+table {
 	width: 100%;
 	margin: 40px 0;
 	border-collapse: collapse;
@@ -354,7 +354,7 @@ thead th,th {
 	border-bottom: 1px solid #dadadc;
 	cursor: default;
 	white-space: nowrap;
-}*/
+}
 
 img {
 	width: 100%;
