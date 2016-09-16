@@ -296,7 +296,7 @@ hr {
 }
 
 span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
-/*
+
 pre	{
 	font-family:Menlo, Monaco, Courier;
 	white-space:pre-wrap;
@@ -313,7 +313,7 @@ pre	{
 	  font-weight: 500;
 	color: #d0d4d7;
 
-}*/
+}
 
 table {
 	width: 100%;
