@@ -339,7 +339,7 @@ tr>td {
 	border-top: 0px;
 }
 
-/*tr:nth-child(odd)>td {
+tr:nth-child(odd)>td {
 	background: #fcfcfc;
 
 thead th,th {
@@ -352,7 +352,7 @@ thead th,th {
 	border-bottom: 1px solid #dadadc;
 	cursor: default;
 	white-space: nowrap;
-}*/
+}
 
 img {
 	width: 100%;
