@@ -337,14 +337,13 @@ table td,td {
 }
 
 tr>td {
-	border-top: 0px solid #eaeaea;
+	border-top: 0px;
 }
 
 /*tr:nth-child(odd)>td {
 	background: #fcfcfc;
-}*/
 
-/*thead th,th {
+thead th,th {
 	text-align: left;
 	padding: 10px 15px;
 	height: 20px;
