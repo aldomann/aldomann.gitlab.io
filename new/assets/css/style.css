@@ -336,7 +336,7 @@ table td,td {
 	border-width: 1px 0 0 0;
 }
 
-/*tr>td {
+tr>td {
 	border-top: 1px solid #eaeaea;
 }
 
@@ -354,7 +354,7 @@ thead th,th {
 	border-bottom: 1px solid #dadadc;
 	cursor: default;
 	white-space: nowrap;
-}*/
+}
 
 img {
 	width: 100%;
