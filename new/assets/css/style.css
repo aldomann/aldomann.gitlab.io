@@ -344,7 +344,7 @@ tr:nth-child(odd)>td {
 	background: #fcfcfc;
 }
 
-thead th,th {
+/*thead th,th {
 	text-align: left;
 	padding: 10px 15px;
 	height: 20px;
@@ -354,7 +354,7 @@ thead th,th {
 	border-bottom: 1px solid #dadadc;
 	cursor: default;
 	white-space: nowrap;
-}
+}*/
 
 img {
 	width: 100%;
