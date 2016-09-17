@@ -377,18 +377,18 @@ Post List
 	margin-top: 100px;
 }
 
-/*#post-list li,#archive-list li {
+#post-list li,#archive-list li {
 	list-style-type: none;
-}*/
+}
 
-/*#post-list li:last-child {
+#post-list li:last-child {
 	margin-bottom: 0;
-}*/
+}
 
-/*#post-list li+li {
+#post-list li+li {
 	padding-top: 20px;
 	border-top: 1px solid #eee;
-}*/
+}
 
 #post-list a {
 	color: #333;
@@ -577,9 +577,9 @@ h2.month {
 	color: #bbb;
 }
 
-#archive-list li a:hover,#archive-list li:hover .dates {
+/*#archive-list li a:hover,#archive-list li:hover .dates {
 	color: #00AAFF;
-}
+}*/
 
 #post-meta img.avatar {
   height: 36px;
