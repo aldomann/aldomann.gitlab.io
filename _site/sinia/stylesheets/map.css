@@ -1,0 +1,201 @@
+body
+{
+	background: #27091E;
+	font-family: 'Droid Sans', arial, serif;
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+a.nounderline
+{
+	text-decoration: none;
+}
+#map
+{
+	background-image: url(../images/mapa.png);
+	height: 419px;
+	width: 950px;
+}
+#c-block
+{
+	background: #ffffff;
+	color: #333333;
+	height: 100%;
+	left: 50%;
+	margin: 20px 0 0 0;
+	right: 50%;
+	width: 980px;
+}
+#hdr
+{
+	background: #EE5928 repeat-x 0 0;
+	color: white;
+	height: 40px;
+	margin: 7px 0 0 10px;
+	position: relative;
+	width: 960px;
+}
+#normal-col
+{
+	margin: 0 15px 0 15px;
+	position: relative;
+	width: 950px;
+}
+#footer
+{
+	background: #EE5928 repeat-x 0 0;
+	color: white;
+	font-size: 12px;
+	height: 30px;
+	margin: 0px 0px 10px 10px;
+	overflow: hidden;
+	position: relative;
+	text-transform: bold;
+	text-transform: uppercase;
+	width: 960px;
+}
+a img
+{
+	border: none;
+}
+h7, h6, h5, h4, h3, h2, h1
+{
+	margin: 0;
+	padding: 5px 0;
+}
+#lightbox
+{
+	left: 0;
+	line-height: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 100;
+}
+#lightbox img
+{
+	height: auto;
+	width: auto;
+}
+#lightbox a img
+{
+	border: none;
+}
+#outerImageContainer
+{
+	background-color: #fff;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+	width: 250px;
+}
+#imageContainer
+{
+	padding: 10px;
+}
+#loading
+{
+	height: 25%;
+	left: 0%;
+	line-height: 0;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	width: 100%;
+}
+#hoverNav
+{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+#imageContainer>#hoverNav
+{
+	left: 0;
+}
+#hoverNav a
+{
+	outline: none;
+}
+#prevLink, #nextLink
+{
+	background-image: url(data:image/gif;
+	display: block;
+	height: 100%;
+	width: 49%;
+}
+#prevLink
+{
+	float: left;
+	left: 0;
+}
+#nextLink
+{
+	float: right;
+	right: 0;
+}
+#prevLink:hover, #prevLink:visited:hover
+{
+	background: url(../images/prevlabel.gif) left 15% no-repeat;
+}
+#nextLink:hover, #nextLink:visited:hover
+{
+	background: url(../images/nextlabel.gif) right 15% no-repeat;
+}
+#imageDataContainer
+{
+	background-color: #fff;
+	font: 10px Verdana, Helvetica, sans-serif;
+	line-height: 1.4em;
+	margin: 0 auto;
+	overflow: auto;
+	width: 100%;
+}
+#imageData
+{
+	color: #666;
+	padding: 0 10px;
+}
+#imageData #imageDetails
+{
+	float: left;
+	text-align: left;
+	width: 70%;
+}
+#imageData #caption
+{
+	font-weight: bold;
+}
+#imageData #numberDisplay
+{
+	clear: left;
+	display: block;
+	padding-bottom: 1.0em;
+}
+#imageData #bottomNavClose
+{
+	float: right;
+	outline: none;
+	padding-bottom: 0.7em;
+	width: 66px;
+}
+#overlay
+{
+	background-color: #000;
+	height: 500px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 90;
+}
