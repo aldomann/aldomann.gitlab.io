@@ -381,9 +381,9 @@ Post List
 	list-style-type: none;
 }*/
 
-#post-list li:last-child {
+/*#post-list li:last-child {
 	margin-bottom: 0;
-}
+}*/
 
 /*#post-list li+li {
 	padding-top: 20px;
