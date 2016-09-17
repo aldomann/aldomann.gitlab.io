@@ -26,7 +26,7 @@ cv_section_experience:      true
 cv_section_education:       true
 cv_section_projects:        false
 cv_section_skills:          true
-cv_section_certificates:     false
+cv_section_certificates:    false
 cv_section_links:           false
 cv_section_associations:    false
 
