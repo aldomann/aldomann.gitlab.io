@@ -1,0 +1,51 @@
+# Site settings
+title: "Alfredo Hernández"
+description: "A resume template for Jekyll and GitHub Pages sites."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Page settings
+about_avatar:                  "true"
+about_name:                    "Alfredo Hernández"
+about_title:                   "Physicist and open source enthusiast."
+about_contact_email:            "aldomann.designs@gmail.com"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the cv_looking_for_work option entirely
+# to leave blank
+about_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+cv_section_experience:      true
+cv_section_education:       true
+cv_section_projects:        false
+cv_section_skills:          true
+cv_section_recognition:     false
+cv_section_links:           false
+cv_section_associations:    false
+
+# Social links
+# uncomment the options you wish to display, and add your own URL
+cv_social_links:
+  cv_gplus_url:             "https://plus.google.com/u/0/+AlfredoHernándezC"
+  cv_github_url:            "https://github.com/aldomann"
+  cv_deviantart_url:        "http://aldomann.deviantart.com/"
+  cv_ubuntu_url:            "https://wiki.ubuntu.com/aldomann"
+  cv_launchpad_url:         "https://launchpad.net/~aldomann"
+  cv_linkedin_url:          "https://www.linkedin.com/in/alfredo-hernández-65b16263"
+  # cv_twitter_url:           "http://twitter.com/aldomann"
+  # cv_facebook_url:          "insert Facebook URL here"
+  # cv_website_url:           "http://aldomann.github.io/"
+
+# Design settings
+cv_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
