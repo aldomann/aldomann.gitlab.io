@@ -182,12 +182,12 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
+/*ul 	{ margin:0; padding:0; }
 li	{ list-style-type:circle; list-style-position:inside; }
 
 ol li {
   list-style-type: decimal;
-}
+}*/
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -577,9 +577,9 @@ h2.month {
 	color: #bbb;
 }
 
-/*#archive-list li a:hover,#archive-list li:hover .dates {
+#archive-list li a:hover,#archive-list li:hover .dates {
 	color: #00AAFF;
-}*/
+}
 
 #post-meta img.avatar {
   height: 36px;
