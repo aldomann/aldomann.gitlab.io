@@ -62,7 +62,13 @@
 
 	.executive-summary {
 		@include media_larger_than_mobile { font-size: 1.125rem; }
+
+		a {
+			font-weight: 700;
+			color: #333;
+		}
 	}
+
 }
 
 .icon-links {
