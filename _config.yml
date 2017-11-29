@@ -2,6 +2,8 @@
 title: "Alfredo Hernández"
 description: "The personal site for Alfredo Hernández"
 
+exclude: [vendor]
+
 # Build settings
 markdown: kramdown
 sass:
