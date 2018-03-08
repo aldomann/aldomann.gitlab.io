@@ -5,22 +5,23 @@ description: "The personal site for Alfredo Hernández"
 exclude: [vendor]
 
 # Build settings
-markdown: kramdown
+markdown:   kramdown
 sass:
   sass_dir: _sass
-  style: compressed
+  style:    compressed
+permalink:  /:title/
 
 # Page settings
-about_avatar:                  "true"
-about_name:                    "Alfredo Hernández"
-about_title:                   "Physicist and Open Source enthusiast."
-about_contact_email:            "aldomann.designs@gmail.com"
+about_avatar:               "true"
+about_name:                 "Alfredo Hernández"
+about_title:                "Physicist and Open Source enthusiast."
+about_contact_email:        "aldomann.designs@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the cv_looking_for_work option entirely
 # to leave blank
-about_looking_for_work:        "yes"
+about_looking_for_work:     "yes"
 
 # Decide which sections to use
 # comment out to hide

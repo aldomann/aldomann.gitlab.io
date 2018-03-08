@@ -11,7 +11,7 @@
 
 				<!-- You can turn off the avatar in _config.yml by setting to false -->
 				{% if site.about_avatar == 'true' %}
-				<a style="color: #333; text-decoration: none;" href="../"><img src="images/avatar.png" alt="my photo" class="avatar" itemprop="image"></a>
+				<a style="color: #333; text-decoration: none;" href="../"><img src="{{ site.github.url }}/images/avatar.png" alt="my photo" class="avatar" itemprop="image"></a>
 				{% endif %}
 
 				<!-- Your name is defined in the _config.yml file -->
@@ -34,7 +34,7 @@
 
 				{% if site.about_looking_for_work == 'yes' %}
 				<a href="blog/" class="blog-button">Blog</a>
-				<a href="cv.html" class="contact-button">Curriculum</a>
+				<a href="cv/" class="contact-button">Curriculum</a>
 				{% elsif site.about_looking_for_work == 'no' %}
 				<a class="contact-button not-looking">I'm not looking for work right now.</a>
 				{% else %}
