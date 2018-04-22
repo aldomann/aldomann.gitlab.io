@@ -27,6 +27,7 @@ about_looking_for_work:     "yes"
 # comment out to hide
 cv_section_experience:      true
 cv_section_education:       true
+cv_section_conferences:     true
 cv_section_certificates:    true
 cv_section_projects:        false
 cv_section_skills:          true

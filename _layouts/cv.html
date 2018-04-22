@@ -33,7 +33,8 @@
 				<div class="cv-item" itemscope itemprop="worksFor" itemtype="https://schema.org/Organization">
 					<h3 class="cv-item-title"><a href="http://www.crm.cat/en">Centre de Recerca Matemàtica</a></h3>
 					<h4 class="cv-item-details" itemprop="description">Complex Systems Intern &bull; September 2017 &mdash; July 2018 </h4>
-					<p class="cv-item-copy">My master's thesis (with Alvaro Corral and Isabel Serra as my thesis supervisors) consists on developing a new statistical method for the analysis of a hurricane's energy dependence with the sea surface temperature, whilst creating a unified hurricane occurrences dataset with real-time temperature tracking.</p>
+					<p class="cv-item-copy">My master's thesis (with Alvaro Corral and Isabel Serra as my thesis supervisors) consists on developing statistical methods using bootstrap, permutation tests, and clustering to study the influence of sea surface temperature on tropical-cyclone intensity.</p>
+					<p class="cv-item-copy">Additionally, I have created a unified hurricane occurrences dataset with finer temporal temperature tracking than those currently available.</p>
 					<br>
 					<h4 class="cv-item-details" itemprop="description">Complex Systems Intern &bull; February &mdash; July 2017 </h4>
 					<p class="cv-item-copy">My bachelor's thesis (with Alvaro Corral as my thesis supervisor) consists of the study of real hurricanes occurrences using some simple statistical models. The main skills I developed are:</p>
@@ -55,7 +56,7 @@
 				<div class="cv-item" itemscope itemprop="worksFor" itemtype="https://schema.org/Organization">
 					<h3 class="cv-item-title"><a href="http://ubuntugnome.org">Ubuntu GNOME</a></h3>
 					<h4 class="cv-item-details" itemprop="description">Marketing Team Lead &bull; April 2013 &mdash; October 2017</h4>
-					<p class="cv-item-copy">As Ubuntu GNOME became an official flavour of Ubuntu, I started working on the branding to help build a powerful and recognisable image. Now, my team and I are in charge of all artwork and social-media-related aspects of this young GNU/Linux distribution.</p>
+					<p class="cv-item-copy">As Ubuntu GNOME became an official flavour of Ubuntu, I started working on the branding to help build a powerful and recognisable image. My team and I were in charge of all artwork and social-media-related aspects of this young GNU/Linux distribution.</p>
 
 					<p class="cv-item-copy">My biggest accomplishments as the Marketing Lead have been:</p>
 					<ul class="cv-item-list">
@@ -89,7 +90,10 @@
 				<div class="cv-item" itemscope itemprop="alumniOf" itemtype="https://schema.org/CollegeOrUniversity">
 					<h3 class="cv-item-title" itemprop="name">Universitat Autònoma de Barcelona</h3>
 					<h4 class="cv-item-details" itemprop="description">MSc in Modelling for Science and Engineering &bull; 2017 &mdash; 2018</h4>
+					<p class="cv-item-copy"> Thesis: <i>The Influence of Sea Surface Temperature on Tropical-Cyclone Intensity</i>.</p>
+					<br>
 					<h4 class="cv-item-details" itemprop="description">Bachelor’s degree in Physics &bull; 2012 &mdash; 2017</h4>
+					<p class="cv-item-copy"> Thesis: <i>On Tropical-Cyclones: An Statistical Analysis on a Warming Environment</i>.</p>
 					<!-- <p class="cv-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p> -->
 				</div>
 
@@ -103,6 +107,30 @@
 			<!-- end Education -->
 			{% endif %}
 
+			{% if site.cv_section_conferences %}
+			<!-- begin Conferences -->
+			<section class="content-section">
+
+				<header class="section-header">
+					<h2>Conference Presentations</h2>
+				</header>
+
+				<div class="cv-item">
+					<h3 class="cv-item-title" itemprop="award"><a href="http://2018.biometricconference.org/">XXIXth International Biometric Conference</a></h3>
+					<h4 class="cv-item-details">Poster Presentation &bull; 8-13th April 2018</h4>
+					<p class="cv-item-copy">Poster: <i>The Environmental Influence on Tropical-Cyclones</i>.</p>
+				</div>
+
+				<div class="cv-item">
+					<h3 class="cv-item-title" itemprop="award"><a href="http://complexitat.cat">VII Jornada complexitat.cat</a></h3>
+					<h4 class="cv-item-details">Poster Presentation &bull; 8-13th of May 2018</h4>
+					<p class="cv-item-copy">Poster: <i>The Influence of Sea Surface Temperature on Tropical-Cyclone Intensity</i>.</p>
+				</div>
+
+			</section>
+			<!-- end Certificates -->
+			{% endif %}
+
 			{% if site.cv_section_certificates %}
 			<!-- begin Certificates -->
 			<section class="content-section">
@@ -113,13 +141,13 @@
 
 				<div class="cv-item">
 					<h3 class="cv-item-title" itemprop="award">Ubuntu</h3>
-					<h4 class="cv-item-details">Ubuntu Membership &bull; 5th of May 2016</h4>
+					<h4 class="cv-item-details">Ubuntu Membership &bull; 5th May 2016</h4>
 					<p class="cv-item-copy">Official Ubuntu Membership means recognition of significant and sustained contribution to Ubuntu or the Ubuntu community. In particular, of my continuous collaboration in Ubuntu GNOME.</p>
 				</div>
 
 				<div class="cv-item">
 					<h3 class="cv-item-title" itemprop="award">The Linux Foundation</h3>
-					<h4 class="cv-item-details">LFC291-Compliance Basics for Developers &bull; 5th of April 2016</h4>
+					<h4 class="cv-item-details">LFC291-Compliance Basics for Developers &bull; 5th April 2016</h4>
 					<p class="cv-item-copy">Because open source is now found everywhere software exists, a good working knowledge of open source licensing and compliance is critical.</p>
 				</div>
 
@@ -137,17 +165,17 @@
 
 				<div class="cv-item">
 					<h4 class="cv-item-details">Advanced</h4>
-					<p class="cv-item-copy">GNU/Linux, LaTeX, Inkscape.</p>
+					<p class="cv-item-copy">GNU/Linux, R, Python, LaTeX, Inkscape.</p>
 				</div>
 
 				<div class="cv-item">
 					<h4 class="cv-item-details">Intermediate</h4>
-					<p class="cv-item-copy">Python, R, Mathematica, git, Bash, awk, GIMP.</p>
+					<p class="cv-item-copy">Shiny, git, Mathematica, Bash, awk, GIMP.</p>
 				</div>
 
 				<div class="cv-item">
 					<h4 class="cv-item-details">Basic</h4>
-					<p class="cv-item-copy">Spark, Hadoop, SQL, C++, bzr, MATLAB, C, Jekyll, HTML, CSS.</p>
+					<p class="cv-item-copy">Spark, Hadoop, SQL, C++, C, MATLAB, bzr, Jekyll, HTML, CSS.</p>
 				</div>
 
 			</section>
@@ -169,7 +197,7 @@
 
 				<div class="cv-item">
 					<h4 class="cv-item-details">Interests</h4>
-					<p class="cv-item-copy">Cinematography, art history, literature, woodworking, music, mathematics, open source, cooking, typography, and UI/UX-design.</p>
+					<p class="cv-item-copy">Cinematography, art history, literature, linguistics, mathematics, music, open source, woodworking, cooking, typography, and UI/UX-design.</p>
 				</div>
 
 			</section>
