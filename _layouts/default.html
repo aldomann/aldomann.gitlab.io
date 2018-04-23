@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}
+
+	<body class="theme-{% if site.cv_theme %}{{ site.cv_theme }}{% endif %}">
+
+		<div class="wrapper" itemscope itemtype="https://schema.org/Person">
+
+			{{ content }}
+
+			{% include footer.html %}
+
+		</div>
+
+	</body>
+
+</html>
