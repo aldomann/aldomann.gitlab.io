@@ -1,4 +1,4 @@
-# aldomann.github.io
+# aldomann.gitlab.io
 
 A simple personal website based on [resume-template](https://github.com/jglovier/resume-template) by  [Joel Glovier](https://github.com/jglovier), powered by Jekyll + GitHub Pages.
 
