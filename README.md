@@ -15,3 +15,7 @@ Disclaimer: Use of Homer J. Simpson image and name used under [Fair Use](https:/
 ### License of [minimal](https://github.com/orderedlist/minimal)
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
+
+### License of artwork and assets
+
+[emotion](https://thenounproject.com/dorxela/collection/emotion/) by Alina Oleynik from the Noun Project is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
