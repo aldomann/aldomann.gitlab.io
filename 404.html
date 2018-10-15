@@ -8,10 +8,10 @@ permalink: 404.html
 	<h1 class="page-title">404: Page not found</h1>
 
 	<p align="center">
-		<object type="image/svg+xml" data="{{ '/images/404.svg' | prepend: site.baseurl | replace: 'http://', 'https://' }}">
+		<object class="error" type="image/svg+xml" data="{{ '/images/404.svg' | prepend: site.baseurl | replace: 'http://', 'https://' }}">
 		  Your browser does not support SVG
 		</object>
 	</p>
 
-	<p class="lead" style="font-family: 'PT Serif'; font-size: 18px">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a style="color: #333" href="{{ site.baseurl }}/">Head back home</a> to try finding it again.</p>
+	<p class="error">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a class="error" href="{{ site.baseurl }}/">Head back home</a> to try finding it again.</p>
 </div>

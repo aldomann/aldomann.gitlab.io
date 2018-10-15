@@ -424,3 +424,19 @@ td,
 th {
 	padding: 0;
 }
+
+/* 404 Error Page
+	 ========================================================================== */
+
+p.error {
+	font-family: 'PT Serif';
+	font-size: 18px;
+}
+
+a.error {
+	color: #333;
+}
+
+object.error {
+	max-width: 80%;
+}
