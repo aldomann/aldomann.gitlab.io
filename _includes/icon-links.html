@@ -7,6 +7,16 @@
   <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_gplus_url }}" class="icon-link" itemprop="url">{% include icons/icon-gplus.html %}</a></li>
   {% endif %}
 
+  <!-- Mastodon link -->
+  {% if site.cv_social_links.cv_mastodon_url %}
+  <li class="icon-link-item"><a rel="me" href="{{ site.cv_social_links.cv_mastodon_url }}" class="icon-link" itemprop="url">{% include icons/icon-mastodon.html %}</a></li>
+  {% endif %}
+
+  <!-- GitLab link -->
+  {% if site.cv_social_links.cv_gitlab_url %}
+  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_gitlab_url }}" class="icon-link" itemprop="url">{% include icons/icon-gitlab.html %}</a></li>
+  {% endif %}
+
   <!-- GitHub link -->
   {% if site.cv_social_links.cv_github_url %}
   <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_github_url }}" class="icon-link" itemprop="url">{% include icons/icon-github.html %}</a></li>
