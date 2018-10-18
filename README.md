@@ -4,6 +4,9 @@ A simple personal website based on [resume-template](https://github.com/jglovier
 
 Some (older) subsites, such as [aldomann.githlabio/random](aldomann.gitlab.io/random), are based on [minimal](https://github.com/orderedlist/minimal) by [Steve Smith](https://github.com/orderedlist).
 
+[![Powered by Jekyll](https://img.shields.io/badge/powered_by-jekyll-red.svg)](https://jekyllrb.com/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 ## Licenses
 
 ### License of [resume-template](https://github.com/jglovier/resume-template)
