@@ -8,12 +8,12 @@ layout: default
 
 	{{ content }}
 
-	<a href="https://blog.aldomann.com/" class="blog-button">Blog</a>
+	<a href="https://blog.aldomann.com/" class="button blog">Blog</a>
+	<a href="https://gitlab.com/aldomann" class="button projects">Projects</a>
 	{% if site.about_looking_for_work == 'yes' %}
-	<a href="cv/" class="contact-button">Curriculum</a>
+		<a href="cv/" class="button cv">Curriculum</a>
 	{% elsif site.about_looking_for_work == 'no' %}
-	<a class="contact-button not-looking">I'm not looking for work right now.</a>
-	{% else %}
+		<a class="button cv not-looking">I'm not looking for work right now.</a>
 	{% endif %}
 
 </header>
