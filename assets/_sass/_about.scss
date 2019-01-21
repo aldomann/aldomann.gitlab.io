@@ -45,7 +45,7 @@
 		@include clearfix;
 
 		.header-title {
-			color: #444;
+			color: $text_color;
 			@include title-sans;
 			font-weight: 300;
 			font-size: 1.75rem;
@@ -65,7 +65,7 @@
 
 	.executive-summary {
 		@include media_larger_than_mobile { font-size: 1.125rem; }
-		color: #444;
+		color: $text_color;
 
 		p {
 			font-size: 16px;
@@ -73,7 +73,7 @@
 
 		a {
 			font-weight: 700;
-			color: #333;
+			color: $blacker;
 		}
 	}
 
@@ -103,7 +103,7 @@
 	.icon-link { display: inline-block;
 
 		&:hover .icon path {
-			fill: #333;
+			fill: $blacker;
 			@include transition(all .2s ease);
 		}
 	}
@@ -120,7 +120,7 @@
 	width: 150px;
 	font-size: 1.1rem;
 	@include sans_light;
-	// color: #333;
+	// color: $blacker;
 	line-height: 40px;
 	@include transition(all .2s ease);
 
@@ -135,7 +135,6 @@
 	color: #fff;
 
 	&:hover {
-		// background-color: #333;
 		background-color: #008add;
 		color: #fff;
 	}
@@ -146,7 +145,6 @@
 	color: #fff;
 
 	&:hover {
-		// background-color: #333;
 		background-color: #5d41ff;
 		color: #fff;
 	}
@@ -157,7 +155,6 @@
 	color: #fff;
 
 	&:hover {
-		// background-color: #333;
 		background-color: #007e73;
 		color: #fff;
 	}
@@ -176,6 +173,17 @@
 		font-size: 1.5rem;
 		letter-spacing: -.05rem;
 		line-height: 1;
+
+		a {
+			color: $black;
+			text-decoration: none;
+			border-bottom: 1px solid;
+
+			&:hover {
+				border-bottom: none;
+				color: #9c9c9c;
+			}
+		}
 	}
 
 	.cv-item-details {
@@ -185,13 +193,11 @@
 		line-height: 1;
 	}
 
-	.cv-item-title,
 	.cv-item-details,
 	.cv-item-copy,
 	.cv-item-list {
 		a {
-			// color: #333;
-			color: #555;
+			color: $blacker;
 			text-decoration: none;
 			border-bottom: 1px solid;
 
@@ -220,7 +226,7 @@
 
 		> a {
 			font-weight: 700;
-			color: #333;
+			color: $blacker;
 		}
 	}
 }
