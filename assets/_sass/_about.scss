@@ -8,7 +8,7 @@
 	margin-bottom: 1.5rem;
 
 	h2 {
-		@include sans;
+		@include title-sans;
 		font-weight: 900;
 		font-size: 1.75rem;
 		letter-spacing: -.05rem;
@@ -30,7 +30,7 @@
 	}
 
 	.header-name {
-		@include sans;
+		@include title-sans;
 		font-size: 3rem;
 		font-weight: 900;
 		text-align: center;
@@ -45,7 +45,8 @@
 		@include clearfix;
 
 		.header-title {
-			@include sans;
+			color: #444;
+			@include title-sans;
 			font-weight: 300;
 			font-size: 1.75rem;
 			line-height: 2rem;
@@ -60,8 +61,15 @@
 		}
 	}
 
+
+
 	.executive-summary {
 		@include media_larger_than_mobile { font-size: 1.125rem; }
+		color: #444;
+
+		p {
+			font-size: 16px;
+		}
 
 		a {
 			font-weight: 700;
@@ -171,6 +179,7 @@
 	}
 
 	.cv-item-details {
+		@include sans_bold;
 		font-size: 1.125rem;
 		margin: 0 0 .75rem;
 		line-height: 1;
