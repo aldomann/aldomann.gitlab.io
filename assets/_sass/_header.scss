@@ -61,7 +61,16 @@
 	}
 
 	.executive-summary {
-		@include media_larger_than_mobile { font-size: 1.125rem; }
+
+		@include media_mobile {
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		@include media_larger_than_mobile {
+			font-size: 1.125rem;
+		}
+
 		color: $text-color;
 
 		p {
