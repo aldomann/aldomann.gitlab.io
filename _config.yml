@@ -15,6 +15,7 @@ permalink:  /:title/
 about_avatar:               "true"
 about_name:                 "Alfredo Hernández"
 about_title:                "Physicist and Open Source enthusiast."
+about_subtitle:             "asd."
 about_contact_email:        "aldomann.designs@gmail.com"
 
 # use "yes" to display the email contact button,

@@ -5,6 +5,13 @@
 
 # google-ID: 'UA-112060364-1'
 
+# Page settings
+about_avatar:               "true"
+about_name:                 "Alfredo Hernández"
+# about_title:                "Physicist and Open Source enthusiast."
+about_subtitle:             "Physicist and Open Source enthusiast."
+about_contact_email:        "aldomann.designs@gmail.com"
+
 # menu:
 # - {name: 'About Me',     hardlink: true,   url: 'https://aldomann.com'}
 # - {name: 'Tech Stuff',   path: 'menu',     url: 'tech'}
