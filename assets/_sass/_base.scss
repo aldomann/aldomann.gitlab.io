@@ -1,5 +1,11 @@
 // Base styles
 // ---------------------------------------/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,300,800,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400');
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -12,7 +18,7 @@ html {
 
 body{
 	@include sans;
-	color: $text_color;
+	color: $text-color;
 	font-size: 16px;
 	line-height: 1.5;
 }
@@ -21,9 +27,8 @@ body{
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
 .wrapper {
-	// max-width: 728px;
-	max-width: 750px;
-	padding: 0 24px;
+	max-width: $container-width;
+	padding: 0;
 	margin: 0 auto;
 	zoom: 1;
 }

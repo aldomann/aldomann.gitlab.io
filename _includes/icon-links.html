@@ -1,61 +1,10 @@
-<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
-{% if site.cv_social_links %}
 <ul class="icon-links">
-
-  <!-- Google+ link -->
-  {% if site.cv_social_links.cv_gplus_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_gplus_url }}" class="icon-link" itemprop="url">{% include icons/icon-gplus.html %}</a></li>
-  {% endif %}
-
-  <!-- Twitter link -->
-  {% if site.cv_social_links.cv_twitter_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_twitter_url }}" class="icon-link" itemprop="url">{% include icons/icon-twitter.html %}</a></li>
-  {% endif %}
-
-  <!-- Mastodon link -->
-  {% if site.cv_social_links.cv_mastodon_url %}
-  <li class="icon-link-item"><a rel="me" href="{{ site.cv_social_links.cv_mastodon_url }}" class="icon-link" itemprop="url">{% include icons/icon-mastodon.html %}</a></li>
-  {% endif %}
-
-  <!-- GitLab link -->
-  {% if site.cv_social_links.cv_gitlab_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_gitlab_url }}" class="icon-link" itemprop="url">{% include icons/icon-gitlab.html %}</a></li>
-  {% endif %}
-
-  <!-- GitHub link -->
-  {% if site.cv_social_links.cv_github_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_github_url }}" class="icon-link" itemprop="url">{% include icons/icon-github.html %}</a></li>
-  {% endif %}
-
-  <!-- Deviantart link -->
-  {% if site.cv_social_links.cv_deviantart_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_deviantart_url }}" class="icon-link" itemprop="url">{% include icons/icon-deviantart.html %}</a></li>
-  {% endif %}
-
-  <!-- Ubuntu link -->
-  {% if site.cv_social_links.cv_ubuntu_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_ubuntu_url }}" class="icon-link" itemprop="url">{% include icons/icon-ubuntu.html %}</a></li>
-  {% endif %}
-
-  <!-- Launchpad link -->
-  {% if site.cv_social_links.cv_launchpad_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_launchpad_url }}" class="icon-link" itemprop="url">{% include icons/icon-launchpad.html %}</a></li>
-  {% endif %}
-
-  <!-- LinkedIn link -->
-  {% if site.cv_social_links.cv_linkedin_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_linkedin_url }}" class="icon-link" itemprop="url">{% include icons/icon-linkedin.html %}</a></li>
-  {% endif %}
-
-  <!-- Facebook link -->
-  {% if site.cv_social_links.cv_facebook_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_facebook_url }}" class="icon-link" itemprop="url">{% include icons/icon-facebook.html %}</a></li>
-  {% endif %}
-
-  <!-- Website link -->
-  {% if site.cv_social_links.cv_website_url %}
-  <li class="icon-link-item"><a href="{{ site.cv_social_links.cv_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a></li>
-  {% endif %}
-
+<!-- <ul class="social-icons"> -->
+  {% for item in site.data.nav-icons.social %}
+    <li class="icon-link-item">
+      <a href="{{ item.link }}" target="_blank"><i class="fab fa-{{ item.icon }}" ></i></a>
+    </li>
+  {% endfor %}
 </ul>
-{% endif %}
+
+

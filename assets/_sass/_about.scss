@@ -45,7 +45,7 @@
 		@include clearfix;
 
 		.header-title {
-			color: $text_color;
+			color: $text-color;
 			@include title-sans;
 			font-weight: 300;
 			font-size: 1.75rem;
@@ -65,7 +65,7 @@
 
 	.executive-summary {
 		@include media_larger_than_mobile { font-size: 1.125rem; }
-		color: $text_color;
+		color: $text-color;
 
 		p {
 			font-size: 16px;
@@ -77,36 +77,6 @@
 		}
 	}
 
-}
-
-.icon-links {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	position: relative;
-	top: 4px;
-	text-align: center;
-	border-top: 1px solid #eee;
-	padding-top: .4rem;
-
-	@include media_larger_than_mobile {
-		float: right;
-		border-top: none;
-		padding-top: 0;
-	}
-
-	.icon-link-item {
-		display: inline-block;
-		margin-left: 5px;
-	}
-
-	.icon-link { display: inline-block;
-
-		&:hover .icon path {
-			fill: $blacker;
-			@include transition(all .2s ease);
-		}
-	}
 }
 
 // Button styles
