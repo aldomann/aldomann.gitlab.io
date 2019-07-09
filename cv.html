@@ -24,7 +24,7 @@ layout: cv
 	<div class="cv-item" itemscope itemprop="worksFor" itemtype="https://schema.org/Organization">
 		<h3 class="cv-item-title"><a href="http://www.crm.cat/en">Centre de Recerca Matemàtica</a></h3>
 		<h4 class="cv-item-details" itemprop="description">Complex Systems Intern &bull; September 2017 &mdash; July 2018 </h4>
-		<p class="cv-item-copy">My master's thesis (with Alvaro Corral and Isabel Serra as my thesis supervisors) consists on developing statistical methods using bootstrap, permutation tests, and clustering to study the influence of sea surface temperature on tropical-cyclone intensity.</p>
+		<p class="cv-item-copy">My master's thesis (with Alvaro Corral and Isabel Serra as my thesis supervisors) consists of developing statistical methods using bootstrap, permutation tests, and clustering to study the influence of sea surface temperature on tropical-cyclone intensity.</p>
 		<p class="cv-item-copy">Additionally, I have created a unified hurricane occurrences dataset with finer temporal temperature tracking than those currently available.</p>
 		<br>
 		<h4 class="cv-item-details" itemprop="description">Complex Systems Intern &bull; February &mdash; July 2017 </h4>
@@ -98,6 +98,34 @@ layout: cv
 <!-- end Education -->
 {% endif %}
 
+
+{% if site.cv_section_skills %}
+<!-- begin Skills -->
+<section class="content-section">
+
+	<header class="section-header">
+		<h2>Computer Skills</h2>
+	</header>
+
+	<div class="cv-item">
+		<h4 class="cv-item-details">Advanced</h4>
+		<p class="cv-item-copy">GNU/Linux, R, Python, Shiny, LaTeX, Git, Inkscape.</p>
+	</div>
+
+	<div class="cv-item">
+		<h4 class="cv-item-details">Intermediate</h4>
+		<p class="cv-item-copy">TensorFlow, Mathematica, Bash, awk, SQL, Jekyll, HTML, CSS, macOS, GIMP.</p>
+	</div>
+
+	<div class="cv-item">
+		<h4 class="cv-item-details">Basic</h4>
+		<p class="cv-item-copy">Spark, Hadoop, C++, C, MATLAB, Computational Genomics.</p>
+	</div>
+
+</section>
+<!-- end Skills -->
+{% endif %}
+
 {% if site.cv_section_conferences %}
 <!-- begin Conferences -->
 <section class="content-section">
@@ -119,7 +147,7 @@ layout: cv
 	</div>
 
 </section>
-<!-- end Certificates -->
+<!-- end Conferences -->
 {% endif %}
 
 {% if site.cv_section_certificates %}
@@ -129,6 +157,23 @@ layout: cv
 	<header class="section-header">
 		<h2>Certificates</h2>
 	</header>
+
+	<div class="cv-item">
+		<h3 class="cv-item-title" itemprop="award">Coursera</h3>
+		<h4 class="cv-item-details">Machine Learning with TensorFlow on Google Cloud Platform Specialization</h4>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/N5VTAUH8EZZV">Intro to TensorFlow</a> &bull; March 2019</p>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/J7297BMJHB4G">Launching into Machine Learning</a> &bull; March 2019</p>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/27GWNFYC5BDC">How Google does Machine Learning</a> &bull; March 2019</p>
+		<br>
+		<h4 class="cv-item-details">Deep Learning Specialization</h4>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/2AAM9WS3PFC6">Structuring Machine Learning Projects</a> &bull; October 2018</p>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/5KEV646CXDDM">Improving Deep Neural Networks</a> &bull; September 2018</p>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/DF48R6X54JNG">Neural Networks and Deep Learning</a> &bull; August 2018</p>
+		<br>
+		<h4 class="cv-item-details">Statistics with R Specialization</h4>
+		<p class="cv-item-copy"><a href="https://www.coursera.org/account/accomplishments/verify/VAPF5HJDRN6J">Introduction to Probability and Data</a> &bull; September 2018</p>
+	</div>
+
 
 	<div class="cv-item">
 		<h3 class="cv-item-title" itemprop="award">Ubuntu</h3>
@@ -144,33 +189,6 @@ layout: cv
 
 </section>
 <!-- end Certificates -->
-{% endif %}
-
-{% if site.cv_section_skills %}
-<!-- begin Skills -->
-<section class="content-section">
-
-	<header class="section-header">
-		<h2>Computer Skills</h2>
-	</header>
-
-	<div class="cv-item">
-		<h4 class="cv-item-details">Advanced</h4>
-		<p class="cv-item-copy">GNU/Linux, R, Python, Shiny, LaTeX, Git, Inkscape.</p>
-	</div>
-
-	<div class="cv-item">
-		<h4 class="cv-item-details">Intermediate</h4>
-		<p class="cv-item-copy">TensorFlow, Mathematica, Bash, awk, Jekyll, HTML, CSS, macOS, GIMP.</p>
-	</div>
-
-	<div class="cv-item">
-		<h4 class="cv-item-details">Basic</h4>
-		<p class="cv-item-copy">Spark, Hadoop, SQL, C++, C, MATLAB, bzr.</p>
-	</div>
-
-</section>
-<!-- end Skills -->
 {% endif %}
 
 {% if site.cv_section_misc %}
