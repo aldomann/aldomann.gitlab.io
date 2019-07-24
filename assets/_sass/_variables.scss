@@ -1,17 +1,18 @@
 // Variables
 // ---------------------------------------/
 
-$container-width:    750px !default;
-$grid-gutter:        10px !default;
+$container-width:     750px !default;
+$container-max-width: 768px;
+$grid-gutter:         10px !default;
 
 // Colors
-$white:              #fff;
-$blackish:           #555;
-$black:              #444;
-$blacker:            #333;
+$white:               #fff;
+$blackish:            #555;
+$black:               #444;
+$blacker:             #333;
 
 // Styles
-$text-color:         $black;
+$text-color:          $black;
 
 // Font stack
 $body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;

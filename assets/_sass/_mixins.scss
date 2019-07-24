@@ -41,11 +41,11 @@
 }
 
 @mixin media_larger_than_mobile {
-	@media (min-width: 600px) { @content; }
+	@media (min-width: $container-max-width + 1) { @content; }
 }
 
 @mixin media_mobile {
-	@media (max-width: 600px) { @content; }
+	@media (max-width: $container-max-width + 1) { @content; }
 }
 
 // type utilities
